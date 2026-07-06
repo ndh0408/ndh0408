@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" role="img" aria-label="Nguyễn Đức Huy — Full-Stack Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#0f141c"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="0.5" stop-color="#388bfd"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2431"/>
+      <stop offset="1" stop-color="#141a23"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#1f6feb" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#2b3746" fill-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- base -->
+  <rect x="0" y="0" width="1000" height="250" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1000" height="250" rx="18" fill="url(#dots)"/>
+  <ellipse cx="850" cy="70" rx="260" ry="220" fill="url(#glow)"/>
+
+  <!-- geometric accents -->
+  <g stroke="#388bfd" stroke-opacity="0.18" stroke-width="1.5" fill="none">
+    <path d="M760 10 L1000 10"/>
+    <path d="M820 -20 L1030 190" stroke-opacity="0.10"/>
+    <path d="M870 -20 L1080 190" stroke-opacity="0.10"/>
+  </g>
+  <text x="905" y="185" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="96" font-weight="700" fill="url(#accent)" fill-opacity="0.10" text-anchor="middle">&lt;/&gt;</text>
+  <rect x="0.75" y="0.75" width="998.5" height="248.5" rx="18" fill="none" stroke="#30363d" stroke-opacity="0.7"/>
+
+  <!-- terminal line -->
+  <text x="56" y="40" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="14">
+    <tspan fill="#2ea043" font-weight="700">&gt;</tspan><tspan fill="#8b949e"> ~/nguyen-duc-huy</tspan><tspan fill="#58a6ff"> — engineering</tspan>
+  </text>
+
+  <!-- name -->
+  <text x="56" y="96" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="#f0f6fc" letter-spacing="0.3">Nguyễn Đức Huy</text>
+  <rect x="58" y="108" width="286" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <!-- subtitle -->
+  <text x="58" y="140" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="16.5" font-weight="500" fill="#c9d1d9">Full-Stack Software Engineer <tspan fill="#484f58">·</tspan> Enterprise <tspan fill="#484f58">·</tspan> Mobile <tspan fill="#484f58">·</tspan> DevOps</text>
+
+  <!-- chips -->
+  <g font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">
+    <g>
+      <rect x="56" y="158" width="84" height="30" rx="15" fill="url(#chip)" stroke="#1f6feb" stroke-opacity="0.55"/>
+      <text x="98" y="178" text-anchor="middle" fill="#79c0ff">Backend</text>
+    </g>
+    <g>
+      <rect x="150" y="158" width="90" height="30" rx="15" fill="url(#chip)" stroke="#388bfd" stroke-opacity="0.55"/>
+      <text x="195" y="178" text-anchor="middle" fill="#a5d0ff">Frontend</text>
+    </g>
+    <g>
+      <rect x="250" y="158" width="78" height="30" rx="15" fill="url(#chip)" stroke="#7c3aed" stroke-opacity="0.6"/>
+      <text x="289" y="178" text-anchor="middle" fill="#d2b6ff">Mobile</text>
+    </g>
+    <g>
+      <rect x="338" y="158" width="82" height="30" rx="15" fill="url(#chip)" stroke="#2ea043" stroke-opacity="0.6"/>
+      <text x="379" y="178" text-anchor="middle" fill="#7ee787">DevOps</text>
+    </g>
+    <g>
+      <rect x="430" y="158" width="88" height="30" rx="15" fill="url(#chip)" stroke="#388bfd" stroke-opacity="0.55"/>
+      <text x="474" y="178" text-anchor="middle" fill="#a5d0ff">Homelab</text>
+    </g>
+  </g>
+
+  <!-- tech word-marks -->
+  <text x="58" y="224" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="14" letter-spacing="0.4">
+    <tspan fill="#c9d1d9">Node.js</tspan><tspan fill="#30475e">  ·  </tspan><tspan fill="#c9d1d9">TypeScript</tspan><tspan fill="#30475e">  ·  </tspan><tspan fill="#c9d1d9">Flutter</tspan><tspan fill="#30475e">  ·  </tspan><tspan fill="#c9d1d9">Swift</tspan><tspan fill="#30475e">  ·  </tspan><tspan fill="#c9d1d9">Docker</tspan><tspan fill="#30475e">  ·  </tspan><tspan fill="#c9d1d9">Linux</tspan><tspan fill="#30475e">  ·  </tspan><tspan fill="#c9d1d9">Proxmox</tspan>
+  </text>
+</svg>

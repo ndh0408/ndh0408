@@ -1,32 +1,47 @@
-<h1 align="center">Hi there, I'm Nguyễn Đức Huy 👋</h1>
-<h3 align="center">Full-Stack Developer · Mobile · DevOps &amp; Homelab</h3>
+<div align="center">
+  <img src="./assets/banner.svg" alt="Nguyễn Đức Huy — Full-Stack Software Engineer" width="100%">
+</div>
 
-<p align="center">
-  <a href="https://github.com/ndh0408">
-    <img src="https://komarev.com/ghpvc/?username=ndh0408&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  </a>
-  <a href="mailto:huy04082000@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="email" />
-  </a>
-  <a href="https://github.com/ndh0408?tab=followers">
-    <img src="https://img.shields.io/github/followers/ndh0408?label=Follow&style=social" alt="followers" />
-  </a>
-</p>
+<div align="center">
+  <em>Backend architecture, self-hosted infrastructure, and cross-platform mobile — built to run in production.</em>
+</div>
 
----
+<div align="center">
+  <a href="https://github.com/ndh0408"><img src="https://img.shields.io/badge/GitHub-ndh0408-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/Based_in-Vietnam-DA251D?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Vietnam">
+  <img src="https://img.shields.io/badge/Focus-Backend_%26_Infrastructure-0A0A0A?style=for-the-badge&logoColor=white" alt="Focus">
+</div>
 
-### 🧑‍💻 About Me
+<br>
 
-- 🔭 I build **web apps, mobile apps**, and run my **own self-hosted infrastructure**.
-- 💼 Currently shipping **[quanly-baogia](https://github.com/ndh0408/quanly-baogia)** — a quote-management platform with multi-template Excel export (in production).
-- 🎮 Maintaining **[realmforge-vn](https://github.com/ndh0408/realmforge-vn)** — a cross-play (PC + Mobile) Minecraft RPG-survival server for the Vietnamese community.
-- 🏠 I self-host on a **Proxmox** cluster with **Docker**, **Coolify** &amp; **Cloudflare Tunnel**.
-- 🌱 Currently going deeper into **native iOS (Swift/SwiftUI)** and **backend architecture**.
-- 📫 Reach me at **huy04082000@gmail.com**
+## 👨‍💻 About Me
 
----
+Full-Stack Software Engineer building enterprise applications, self-hosted infrastructure, and cross-platform mobile experiences. I design backends for long-lived production systems, not demos — the software I ship serves real users and is maintained over time.
 
-### 🛠️ Tech Stack
+I lean on **AI-assisted development** as part of my daily workflow — for codebase audits, large-scale refactors, and architecture reviews — while keeping ownership of every design decision. I enjoy documenting and sharing what I build, and I consistently prefer production-ready, usable software over throwaway prototypes.
+
+> **Interested in:** Backend Architecture • Enterprise Software • DevOps • Self-hosting • Performance
+
+<table>
+  <tr>
+    <th align="left">Domains</th><th></th>
+    <th align="left">Technologies</th><th></th>
+  </tr>
+  <tr><td><b>Backend Engineering</b></td><td>★★★★★</td><td><b>TypeScript / Node.js</b></td><td>★★★★★</td></tr>
+  <tr><td><b>Enterprise Software</b></td><td>★★★★★</td><td><b>PostgreSQL / Prisma</b></td><td>★★★★☆</td></tr>
+  <tr><td><b>System Design / Architecture</b></td><td>★★★★☆</td><td><b>Docker / Linux</b></td><td>★★★★☆</td></tr>
+  <tr><td><b>DevOps &amp; Self-hosting</b></td><td>★★★★☆</td><td><b>Flutter / Dart</b></td><td>★★★★☆</td></tr>
+  <tr><td><b>Full-Stack</b></td><td>★★★★☆</td><td><b>React / Vite</b></td><td>★★★☆☆</td></tr>
+</table>
+
+## 🚀 What I'm Building
+
+- **Quotation & approval platform** — an enterprise system for building, versioning, and approving quotes, used daily by a real business.
+- **Phố Game Chill** — a cross-play (PC + Mobile) Minecraft community server for the ~1,500-member gaming community I founded and run.
+- **Native iOS app** — built with **Swift / SwiftUI**, including a full self-configured build-and-deploy pipeline.
+- **Self-hosted homelab** — a multi-node **Proxmox + Docker + Coolify + Cloudflare Tunnel** stack running my services end to end.
+
+## 🛠️ Tech Stack
 
 **Languages**
 
@@ -34,76 +49,160 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 
-**Backend &amp; Databases**
+**Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Server-Sent Events](https://img.shields.io/badge/Server--Sent_Events-FF6600?style=for-the-badge)
+
+**Databases**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
 
-**Frontend &amp; Mobile**
+**Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0071E3?style=for-the-badge&logo=swift&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**DevOps &amp; Infrastructure**
+**Mobile**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0071E3?style=for-the-badge&logo=swift&logoColor=white)
+
+**DevOps & Infrastructure**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Coolify](https://img.shields.io/badge/Coolify-8B5CF6?style=for-the-badge)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Tools**
+## 🏗️ Architecture Expertise
 
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+I build backends around **Clean Architecture** and clear layer boundaries: HTTP concerns stay at the route layer, business rules live in services, and data access goes through Prisma. This keeps enterprise logic — **multi-stage approval workflows**, **RBAC / role-permission** models, and the full **quotation lifecycle** (draft → version → review → approve/reject) — testable and independent of transport and storage.
 
----
+```mermaid
+flowchart LR
+    A[Client] --> B[Express Routes]
+    B --> C[Service Layer]
+    C --> D[Prisma Client]
+    D --> E[(PostgreSQL)]
 
-### 📊 GitHub Stats
+    B -. Zod validation .-> B
+    C -. RBAC / Approval workflow .-> C
+    C -. Background jobs / SSE .-> C
+```
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ndh0408&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="ndh0408 github stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=ndh0408&hide_border=true&theme=tokyonight" alt="ndh0408 streak" />
-</p>
+A rarer, high-value specialty I've built out is **dynamic Excel automation via raw OOXML** — stitching multiple spreadsheet templates together at the XML level to produce complex, brand-accurate exports that off-the-shelf libraries can't express. Combined with server-side PDF generation, this powers the document engine at the heart of the quotation platform.
 
-<p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ndh0408&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&exclude_repo=Hackintosh-Y9000P" alt="top languages" />
-</p>
+## 📈 GitHub Activity
 
----
+<div align="center">
+  <img src="./assets/github-activity.svg" alt="GitHub activity — 527 contributions and 514 commits in the last 12 months" width="100%">
+</div>
 
-### 📌 Featured Projects
+## 🏆 Featured Projects
 
-| Project | Description | Stack |
-| ------- | ----------- | ----- |
-| [**quanly-baogia**](https://github.com/ndh0408/quanly-baogia) | Quote-management platform for a real business — multi-template Excel export via OOXML stitching. Running in production. | `TypeScript` `Node` `Express` `Prisma` `PostgreSQL` |
-| [**realmforge-vn**](https://github.com/ndh0408/realmforge-vn) | Cross-play (PC + Mobile) Minecraft RPG-survival server for Vietnamese players, powered by Geyser/Floodgate. | `Java` `Paper` `Geyser` |
-| [**hnag**](https://github.com/ndh0408/hnag) | Cross-platform mobile application. | `Flutter` `Dart` |
-| [**Hackintosh-Y9000P**](https://github.com/ndh0408/Hackintosh-Y9000P) | macOS Sequoia OpenCore EFI + full documentation for the Lenovo Legion Y9000P (i9-14900HX). | `OpenCore` `ACPI` |
+<table>
+  <tr>
+    <td>
 
----
+### Quotation & Approval Platform
 
-### 🤝 Connect With Me
+Production-grade quotation & approval system built as a layered **Express + TypeScript** API on **Prisma 7 / PostgreSQL 16**, with a React 19 frontend progressively replacing a legacy SPA. Shipped and maintained in production for a paying business.
 
-<p align="center">
-  <a href="mailto:huy04082000@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://github.com/ndh0408">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+**Highlights**
 
-<p align="center"><i>⭐️ Thanks for stopping by — feel free to check out my repositories!</i></p>
+- ✔ Authentication (JWT + refresh tokens, TOTP 2FA)
+- ✔ Role Management / RBAC (granular role-permission model + per-user overrides)
+- ✔ Dynamic Excel export via **OOXML** template stitching
+- ✔ PDF generation with embedded fonts
+- ✔ Multi-stage Approval Workflow with full audit trail
+- ✔ PostgreSQL with a versioned, multi-sheet quote model
+- ✔ Dockerized (staging / prod compose, background job workers)
+- ✔ Responsive UI
+
+**Tech:** TypeScript · Express · Prisma · PostgreSQL · Redis · BullMQ · React 19 + Vite · Docker
+
+<br>
+
+![DB Tables](https://img.shields.io/badge/DB_Tables-26-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![REST Endpoints](https://img.shields.io/badge/REST_Endpoints-120-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Modules](https://img.shields.io/badge/Feature_Modules-22-6E40C9?style=for-the-badge&logo=modx&logoColor=white)
+![Source LOC](https://img.shields.io/badge/Source_LOC-~24k-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+  </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+#### Phố Game Chill — Minecraft Server
+
+Cross-play (PC + Mobile) survival & community server for a ~1,500-member community I founded and run. Java + Bedrock crossplay, full plugin stack, automated backups/restarts, and DDoS mitigation.
+
+`Java` · `Docker` · `Linux`
+
+  </td>
+  <td width="50%" valign="top">
+
+#### Cross-Platform Mobile App
+
+A Flutter application that delivers a native-feeling UX across iOS and Android from a single codebase.
+
+`Flutter` · `Dart`
+
+  </td>
+  </tr>
+</table>
+
+**Side projects & tinkering** — Hackintosh on a Lenovo Legion Y9000P (OpenCore configuration, ACPI patching, and hardware bring-up notes).
+
+<!--
+## 📷 Screenshots
+Re-enable once real, high-resolution captures are committed at these exact paths on the
+default branch: ./assets/quanly-dashboard.png, ./assets/quanly-quote.png, ./assets/quanly-export.png
+<div align="center">
+  <img src="./assets/quanly-dashboard.png" alt="Dashboard" width="30%">
+  <img src="./assets/quanly-quote.png" alt="Quote editor" width="30%">
+  <img src="./assets/quanly-export.png" alt="Excel / PDF export" width="30%">
+  <br>
+  <sub>Quote Management Platform — dashboard, quotation editor, and document export.</sub>
+</div>
+-->
+
+## 🎯 2026 Roadmap
+
+- [x] Native iOS app (Swift/SwiftUI)
+- [x] Dockerize all self-hosted services
+- [ ] CI/CD pipelines (GitHub Actions)
+- [ ] Kubernetes
+- [ ] Microservices architecture
+- [ ] Deeper AI integration
+
+## 🤝 Contact
+
+<div align="center">
+  <a href="mailto:huy04082000@gmail.com"><img src="https://img.shields.io/badge/Email-huy04082000@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/ndh0408"><img src="https://img.shields.io/badge/GitHub-ndh0408-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/ndh0408"><img src="https://img.shields.io/badge/LinkedIn-Nguyễn_Đức_Huy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</div>
