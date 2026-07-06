@@ -40,6 +40,7 @@ _Outside of work, I enjoy building homelab infrastructure, running community gam
 
 - **Quotation & approval platform** — an enterprise system for building, versioning, and approving quotes, used daily by a real business.
 - **Phố Game Chill** — a cross-play (PC + Mobile) Minecraft community server for the ~1,500-member gaming community I founded and run.
+- **Discord community bots** — music (Lavalink), ticket/support systems with payment integration, moderation, and party games (Werewolf, lottery), built in **Python, TypeScript & Java**.
 - **Native iOS app** — built with **Swift / SwiftUI**, including a full self-configured build-and-deploy pipeline.
 - **Self-hosted homelab** — a multi-node **Proxmox + Docker + Coolify + Cloudflare Tunnel** stack running my services end to end.
 
