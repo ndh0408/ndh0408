@@ -18,9 +18,11 @@
 
 Full-Stack Software Engineer building enterprise applications, self-hosted infrastructure, and cross-platform mobile experiences. I design backends for long-lived production systems, not demos — the software I ship serves real users and is maintained over time.
 
-I lean on **AI-assisted development** as part of my daily workflow — for codebase audits, large-scale refactors, and architecture reviews — while keeping ownership of every design decision. I enjoy documenting and sharing what I build, and I consistently prefer production-ready, usable software over throwaway prototypes.
+I use modern AI tooling to accelerate code reviews, refactoring, documentation, and architecture exploration — while remaining responsible for every implementation and technical decision. I care about **documentation**, and I usually start from the business problem itself: mapping real-world processes — quotations, approval flows, permissions — into maintainable systems. I consistently prefer production-ready, usable software over throwaway prototypes.
 
-> **Interested in:** Backend Architecture • Enterprise Software • DevOps • Self-hosting • Performance
+_Outside of work, I enjoy building homelab infrastructure, running community gaming servers, experimenting with Apple ecosystems through Hackintosh, and finding ways to make software more reliable and enjoyable to use._
+
+> **Interested in:** secure-by-default backend systems • RBAC & auditability • enterprise software • self-hosted infrastructure • production operations
 
 <table>
   <tr>
@@ -29,7 +31,7 @@ I lean on **AI-assisted development** as part of my daily workflow — for codeb
   </tr>
   <tr><td><b>Backend Engineering</b></td><td>★★★★★</td><td><b>TypeScript / Node.js</b></td><td>★★★★★</td></tr>
   <tr><td><b>Enterprise Software</b></td><td>★★★★★</td><td><b>PostgreSQL / Prisma</b></td><td>★★★★☆</td></tr>
-  <tr><td><b>System Design / Architecture</b></td><td>★★★★☆</td><td><b>Docker / Linux</b></td><td>★★★★☆</td></tr>
+  <tr><td><b>System Design / Architecture</b></td><td>★★★☆☆</td><td><b>Docker / Linux</b></td><td>★★★★☆</td></tr>
   <tr><td><b>DevOps &amp; Self-hosting</b></td><td>★★★★☆</td><td><b>Flutter / Dart</b></td><td>★★★★☆</td></tr>
   <tr><td><b>Full-Stack</b></td><td>★★★★☆</td><td><b>React / Vite</b></td><td>★★★☆☆</td></tr>
 </table>
@@ -56,9 +58,7 @@ I lean on **AI-assisted development** as part of my daily workflow — for codeb
 **Backend**
 
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -92,11 +92,9 @@ I lean on **AI-assisted development** as part of my daily workflow — for codeb
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Coolify](https://img.shields.io/badge/Coolify-8B5CF6?style=for-the-badge)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
 ## 🏗️ Architecture Expertise
 
-I build backends around **Clean Architecture** and clear layer boundaries: HTTP concerns stay at the route layer, business rules live in services, and data access goes through Prisma. This keeps enterprise logic — **multi-stage approval workflows**, **RBAC / role-permission** models, and the full **quotation lifecycle** (draft → version → review → approve/reject) — testable and independent of transport and storage.
+I structure backends as a **layered, modular architecture** and apply **Clean Architecture principles** where they earn their keep: HTTP concerns stay at the route layer, business rules live in services, and data access goes through Prisma. This keeps enterprise logic — **multi-stage approval workflows**, **RBAC / role-permission** models, and the full **quotation lifecycle** (draft → version → review → approve/reject) — testable and independent of transport and storage.
 
 ```mermaid
 flowchart LR
