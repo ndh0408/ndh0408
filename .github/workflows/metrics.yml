@@ -1,0 +1,33 @@
+name: Metrics
+
+on:
+  # Refresh once a day
+  schedule:
+    - cron: "0 1 * * *"
+  # Allow manual runs from the Actions tab / CLI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Built-in token — no personal access token required for public data
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ndh0408
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Ho_Chi_Minh
+          config_display: large
+          # 3D full-year contribution calendar (the "activity graph")
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          # Commit the SVG back into the repo so the README never depends on a live service
+          output_action: commit
+          committer_message: "chore: refresh github-metrics.svg [skip ci]"
